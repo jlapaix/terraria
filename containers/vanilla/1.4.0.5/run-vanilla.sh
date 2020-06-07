@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-CMD="./TerrariaServer -config /config/serverconfig.txt -banlist /config/banlist.txt"
+CMD="./TerrariaServer.exe -config /config/serverconfig.txt -banlist /config/banlist.txt"
 
 # Create default config files if they don't exist
 if [ ! -f "/config/serverconfig.txt" ]; then
